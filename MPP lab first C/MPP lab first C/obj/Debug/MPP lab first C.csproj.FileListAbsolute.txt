@@ -1,0 +1,36 @@
+E:\Zettro\Babes\Anul2\MPP-Lab\MPP lab first C\MPP lab first C\bin\Debug\x86\sqlite3.dll
+E:\Zettro\Babes\Anul2\MPP-Lab\MPP lab first C\MPP lab first C\bin\Debug\x64\sqlite3.dll
+E:\Zettro\Babes\Anul2\MPP-Lab\MPP lab first C\MPP lab first C\bin\Debug\MPP lab first C.exe.config
+E:\Zettro\Babes\Anul2\MPP-Lab\MPP lab first C\MPP lab first C\bin\Debug\MPP lab first C.exe
+E:\Zettro\Babes\Anul2\MPP-Lab\MPP lab first C\MPP lab first C\bin\Debug\MPP lab first C.pdb
+E:\Zettro\Babes\Anul2\MPP-Lab\MPP lab first C\MPP lab first C\bin\Debug\Distracey.dll
+E:\Zettro\Babes\Anul2\MPP-Lab\MPP lab first C\MPP lab first C\bin\Debug\Distracey.Log4Net.dll
+E:\Zettro\Babes\Anul2\MPP-Lab\MPP lab first C\MPP lab first C\bin\Debug\log4net.dll
+E:\Zettro\Babes\Anul2\MPP-Lab\MPP lab first C\MPP lab first C\bin\Debug\Microsoft.Data.Sqlite.dll
+E:\Zettro\Babes\Anul2\MPP-Lab\MPP lab first C\MPP lab first C\bin\Debug\Newtonsoft.Json.dll
+E:\Zettro\Babes\Anul2\MPP-Lab\MPP lab first C\MPP lab first C\bin\Debug\SQLitePCLRaw.core.dll
+E:\Zettro\Babes\Anul2\MPP-Lab\MPP lab first C\MPP lab first C\bin\Debug\System.Buffers.dll
+E:\Zettro\Babes\Anul2\MPP-Lab\MPP lab first C\MPP lab first C\bin\Debug\System.Data.SQLite.dll
+E:\Zettro\Babes\Anul2\MPP-Lab\MPP lab first C\MPP lab first C\bin\Debug\System.Memory.dll
+E:\Zettro\Babes\Anul2\MPP-Lab\MPP lab first C\MPP lab first C\bin\Debug\System.Net.Http.Formatting.dll
+E:\Zettro\Babes\Anul2\MPP-Lab\MPP lab first C\MPP lab first C\bin\Debug\System.Numerics.Vectors.dll
+E:\Zettro\Babes\Anul2\MPP-Lab\MPP lab first C\MPP lab first C\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\Zettro\Babes\Anul2\MPP-Lab\MPP lab first C\MPP lab first C\bin\Debug\System.Web.Http.dll
+E:\Zettro\Babes\Anul2\MPP-Lab\MPP lab first C\MPP lab first C\bin\Debug\log4net.xml
+E:\Zettro\Babes\Anul2\MPP-Lab\MPP lab first C\MPP lab first C\bin\Debug\Microsoft.Data.Sqlite.xml
+E:\Zettro\Babes\Anul2\MPP-Lab\MPP lab first C\MPP lab first C\bin\Debug\Newtonsoft.Json.xml
+E:\Zettro\Babes\Anul2\MPP-Lab\MPP lab first C\MPP lab first C\bin\Debug\System.Buffers.xml
+E:\Zettro\Babes\Anul2\MPP-Lab\MPP lab first C\MPP lab first C\bin\Debug\System.Data.SQLite.xml
+E:\Zettro\Babes\Anul2\MPP-Lab\MPP lab first C\MPP lab first C\bin\Debug\System.Data.SQLite.dll.config
+E:\Zettro\Babes\Anul2\MPP-Lab\MPP lab first C\MPP lab first C\bin\Debug\System.Memory.xml
+E:\Zettro\Babes\Anul2\MPP-Lab\MPP lab first C\MPP lab first C\bin\Debug\System.Net.Http.Formatting.xml
+E:\Zettro\Babes\Anul2\MPP-Lab\MPP lab first C\MPP lab first C\bin\Debug\System.Numerics.Vectors.xml
+E:\Zettro\Babes\Anul2\MPP-Lab\MPP lab first C\MPP lab first C\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\Zettro\Babes\Anul2\MPP-Lab\MPP lab first C\MPP lab first C\bin\Debug\System.Web.Http.xml
+E:\Zettro\Babes\Anul2\MPP-Lab\MPP lab first C\MPP lab first C\obj\Debug\MPP lab first C.csprojAssemblyReference.cache
+E:\Zettro\Babes\Anul2\MPP-Lab\MPP lab first C\MPP lab first C\obj\Debug\MPP_lab_first_C.Vanzare.resources
+E:\Zettro\Babes\Anul2\MPP-Lab\MPP lab first C\MPP lab first C\obj\Debug\MPP_lab_first_C.Properties.Resources.resources
+E:\Zettro\Babes\Anul2\MPP-Lab\MPP lab first C\MPP lab first C\obj\Debug\MPP lab first C.csproj.GenerateResource.cache
+E:\Zettro\Babes\Anul2\MPP-Lab\MPP lab first C\MPP lab first C\obj\Debug\MPP lab first C.csproj.CopyComplete
+E:\Zettro\Babes\Anul2\MPP-Lab\MPP lab first C\MPP lab first C\obj\Debug\MPP lab first C.exe
+E:\Zettro\Babes\Anul2\MPP-Lab\MPP lab first C\MPP lab first C\obj\Debug\MPP lab first C.pdb
