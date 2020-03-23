@@ -40,18 +40,20 @@ namespace MPP_lab_first_C.Repo
                     {
                         NumeClient = dr.GetString(1),
                         NumarTelefon = dr.GetString(2),
-                        NumarBilete = Int32.Parse(dr.GetString(3)),
-                        Id = Int32.Parse(dr.GetString(4))
+                        NumarBilete = dr.GetInt32(3),
+                        Id = dr.GetInt32(4)
                     };
 
-
-
+                    dr.Close();
+                    connection.Close();
                 }
                 catch (Exception e)
                 {
                     log.Error(e);
+                    
                 }
 
+               
             }
             return a;
         }
@@ -70,16 +72,19 @@ namespace MPP_lab_first_C.Repo
                     command.Parameters.Add(new SQLiteParameter("excursie", entity.Id));
 
                     command.ExecuteNonQuery();
+                    connection.Close();
                 }
                 catch (Exception e)
                 {
                     log.Error(e);
+                   
                 }
+                
             }
         }
             public IEnumerable<Rezervare> findAllMatch(int s)
             {
-                List<Rezervare> a = null;
+                List<Rezervare> a = new List<Rezervare>();
                 using (SQLiteConnection connection = jdbUtils.getConnection())
                 {
                     try
@@ -88,25 +93,27 @@ namespace MPP_lab_first_C.Repo
                         SQLiteCommand command = new SQLiteCommand("select * from Rezervare where idExcursie=@s", connection);
                         command.Parameters.Add(new SQLiteParameter("s", s));
                         SQLiteDataReader dr = command.ExecuteReader();
-                        dr.Read();
+                       while(dr.Read())
 
                         a.Add(new Rezervare
                     {
                         NumeClient = dr.GetString(1),
                         NumarTelefon = dr.GetString(2),
-                        NumarBilete = Int32.Parse(dr.GetString(3)),
-                        Id = Int32.Parse(dr.GetString(4))
+                        NumarBilete = dr.GetInt32(3),
+                        Id = dr.GetInt32(4)
                     });
 
-
-
+                    dr.Close();
+                    connection.Close();
                 }
                     catch (Exception e)
                     {
                         log.Error(e);
+                    
                     }
+                
 
-                }
+            }
                 return a;
             
         }
@@ -117,6 +124,11 @@ namespace MPP_lab_first_C.Repo
         }
 
         IEnumerable<Rezervare> ICrudRepository<int, Rezervare>.FindAllMatch(string numeObiectivTuristic)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool update(int id, int numarBilete)
         {
             throw new NotImplementedException();
         }

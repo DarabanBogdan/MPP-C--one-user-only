@@ -32,20 +32,9 @@ namespace MPP_lab_first_C.Repo
 		public SQLiteConnection getConnection()
 		{
 
-			try
-			{
-				if (connection == null)
-				{
-					connection = createConnection();
+			connection = createConnection();
 
 
-				}
-
-			}
-			catch (SQLiteException e)
-			{
-				logger.Error(e);
-			}
 			return connection;
 		}
 	}

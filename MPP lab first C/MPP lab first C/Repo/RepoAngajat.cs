@@ -37,15 +37,18 @@ namespace MPP_lab_first_C.Repo
 
                     a = new Angajat{Username=id,Password= dr.GetString(0) };
 
-
-
+                    dr.Close();
+                    connection.Close();
                 }
                 catch (Exception e)
                 {
                     log.Error(e);
+                    
                 }
-
+               
             }
+            
+
             return a;
         }
 
@@ -67,6 +70,11 @@ namespace MPP_lab_first_C.Repo
         }
 
         public IEnumerable<Angajat> findAllMatch(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool update(int id, int numarBilete)
         {
             throw new NotImplementedException();
         }

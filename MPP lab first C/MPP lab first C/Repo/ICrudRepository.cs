@@ -40,6 +40,7 @@ namespace MPP_lab_first_C.Repo
 		void delete(ID id);
 		IEnumerable<E> FindAllMatch(string numeObiectivTuristic);
 		IEnumerable<E> findAllMatch(int id);
+		bool update(int id, int numarBilete);
 
 		/// <summary>
 		///  Updates an entity

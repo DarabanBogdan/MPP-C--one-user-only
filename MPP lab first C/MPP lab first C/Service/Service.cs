@@ -56,7 +56,7 @@ namespace MPP_lab_first_C.Service
         public IEnumerable<Excursie> findAllMatch(String numeObiectivTuristic, String oraInceput, String oraSfarsit)
         {
 
-            List<Excursie> tasks = null;
+            List<Excursie> tasks = new List<Excursie>();
             List<Excursie> all = (List<Excursie>)repoExcursie.FindAllMatch(numeObiectivTuristic);
             Ora inceput = StringToOra(oraInceput);
             Ora sfarsit = StringToOra(oraSfarsit);
@@ -76,6 +76,22 @@ namespace MPP_lab_first_C.Service
 
             return tasks;
 
+        }
+
+        internal void addRezervare(Rezervare rezervare)
+        {
+            int n = repoExcursie.findOne(rezervare.Id).NumarLocuriDisponibile - rezervare.NumarBilete;
+            if ( n>= 0)
+            {
+                repoExcursie.update(rezervare.Id, n);
+                repoRezervare.save(rezervare);
+            }
+            
+        }
+
+        internal Excursie findOneExcursie(int v)
+        {
+            return repoExcursie.findOne(v);
         }
 
         public IEnumerable<Rezervare> findAllRezervare(Excursie excursie)

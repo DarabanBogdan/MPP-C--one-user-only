@@ -16,7 +16,7 @@ namespace MPP_lab_first_C
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Vanzare());
+            Application.Run(new Login());
         }
     }
 }

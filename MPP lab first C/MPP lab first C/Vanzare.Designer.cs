@@ -79,6 +79,7 @@ namespace MPP_lab_first_C
             this.TableSearch.Name = "TableSearch";
             this.TableSearch.Size = new System.Drawing.Size(269, 150);
             this.TableSearch.TabIndex = 2;
+            this.TableSearch.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.TableSearch_CellContentClick);
             // 
             // label1
             // 
@@ -209,6 +210,7 @@ namespace MPP_lab_first_C
             this.RezervaButton.TabIndex = 18;
             this.RezervaButton.Text = "Rezerva";
             this.RezervaButton.UseVisualStyleBackColor = true;
+            this.RezervaButton.Click += new System.EventHandler(this.RezervaButton_Click);
             // 
             // button3
             // 
